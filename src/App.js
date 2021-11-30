@@ -167,24 +167,27 @@ function App() {
         </Row>
       </Container>
       <Container className="my-5 text-center">
-        <a
-          href="https://github.com/danielzairin"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <BsGithub fontSize={50} />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/daniel-zairin-bbb584209"
-          target="_blank"
-          rel="noreferrer"
-          className="mx-3"
-        >
-          <BsLinkedin fontSize={50} />
-        </a>
-        <a href="mailto:danielzairink@gmail.com">
-          <BsEnvelope fontSize={50} />
-        </a>
+        <div className="mb-4">
+          <a
+            href="https://github.com/danielzairin"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <BsGithub fontSize={50} />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/daniel-zairin-bbb584209"
+            target="_blank"
+            rel="noreferrer"
+            className="mx-3"
+          >
+            <BsLinkedin fontSize={50} />
+          </a>
+          <a href="mailto:danielzairink@gmail.com">
+            <BsEnvelope fontSize={50} />
+          </a>
+        </div>
+        <a href="resume.pdf">Traditional Resume</a>
       </Container>
     </div>
   );
